@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>The Future of AI Marketing | KRONATRIX Marketing Free AI Audit</title>
+  <meta name="description" content="KRONATRIX Marketing helps businesses prepare for the future of AI marketing, AI SEO and human buying decisions. Get a free audit and discover what may stop AI and customers from choosing your business." />
+  <meta name="keywords" content="KRONATRIX Marketing, KRONATRIX, free AI marketing audit, AI marketing agency, AI SEO agency, future of AI marketing, AI search optimisation, answer engine optimisation, AI recommendations, human buying decisions, business audit, marketing audit, SEO audit, social media marketing, business growth consulting" />
+  <meta name="author" content="KRONATRIX Marketing" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#020617" />
+
+  <link rel="icon" type="image/png" href="kronatrix-marketing-favicon.png" />
+  <link rel="apple-touch-icon" href="kronatrix-ai-marketing-agency-logo.png" />
+
+  <meta property="og:title" content="The Future of AI Marketing | KRONATRIX Marketing" />
+  <meta property="og:description" content="Humans will ask AI what to buy. KRONATRIX helps businesses become clearer, more trusted and easier to recommend. Get a free audit." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content="KRONATRIX Marketing" />
+  <meta property="og:image" content="kronatrix-ai-marketing-agency-logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Future of AI Marketing | KRONATRIX Marketing" />
+  <meta name="twitter:description" content="Free AI marketing audit for businesses preparing for AI search, AI recommendations and human buying decisions." />
+  <meta name="twitter:image" content="kronatrix-ai-marketing-agency-logo.png" />
+
+  <style>
+    :root {
+      --bg: #020617;
+      --nav: rgba(2, 8, 23, 0.92);
+      --panel: #071426;
+      --panel2: #0f172a;
+      --text: #f8fafc;
+      --soft: #e0f2fe;
+      --muted: #b7c6d8;
+      --blue: #38bdf8;
+      --blue2: #60a5fa;
+      --blue3: #0ea5e9;
+      --green: #22c55e;
+      --yellow: #facc15;
+      --line: rgba(148, 163, 184, 0.24);
+      --line2: rgba(56, 189, 248, 0.36);
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+      --max: 1220px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 0%, rgba(56, 189, 248, 0.20), transparent 31rem),
+        radial-gradient(circle at 85% 3%, rgba(96, 165, 250, 0.14), transparent 30rem),
+        linear-gradient(180deg, #020617 0%, #07111f 42%, #020617 100%);
+      line-height: 1.55;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    img { max-width: 100%; height: auto; }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-link:focus {
+      left: 16px;
+      top: 16px;
+      width: auto;
+      height: auto;
+      background: var(--blue);
+      color: #020617;
+      padding: 10px 14px;
+      border-radius: 10px;
+      z-index: 100;
+      font-weight: 900;
+    }
+
+    .top-alert {
+      background: linear-gradient(90deg, rgba(56, 189, 248, 0.18), rgba(96, 165, 250, 0.08), rgba(56, 189, 248, 0.18));
+      border-bottom: 1px solid rgba(56, 189, 248, 0.24);
+      color: #dff7ff;
+      text-align: center;
+      padding: 7px 14px;
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--nav);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 9px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: max-content;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .brand-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(56, 189, 248, 0.44);
+      box-shadow: 0 0 32px rgba(56, 189, 248, 0.34);
+      background: #020617;
+    }
+
+    .brand-text small {
+      display: block;
+      color: var(--blue);
+      font-size: 0.64rem;
+      letter-spacing: 0.13em;
+      margin-top: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: var(--muted);
+      font-size: 0.91rem;
+      font-weight: 780;
+    }
+
+    .nav-links a:hover { color: #ffffff; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.50);
+      background: linear-gradient(135deg, var(--blue), var(--blue2));
+      color: #020617;
+      font-weight: 950;
+      box-shadow: 0 16px 54px rgba(56, 189, 248, 0.24);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 22px 72px rgba(56, 189, 248, 0.38);
+    }
+
+    .btn.secondary {
+      background: rgba(15, 23, 42, 0.86);
+      color: var(--text);
+      box-shadow: none;
+      border-color: var(--line);
+    }
+
+    .btn.free {
+      background: linear-gradient(135deg, #67e8f9, #60a5fa 58%, #38bdf8);
+      font-size: 1rem;
+    }
+
+    .hero-wrap {
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(2, 6, 23, 0.00), rgba(2, 6, 23, 0.52)),
+        radial-gradient(circle at 82% 14%, rgba(56, 189, 248, 0.15), transparent 28rem);
+    }
+
+    .hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 20px 22px 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.07fr) minmax(340px, 0.93fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .hero-main {
+      border: 1px solid rgba(148, 163, 184, 0.20);
+      background:
+        linear-gradient(135deg, rgba(2, 8, 23, 0.70), rgba(15, 23, 42, 0.44)),
+        rgba(2, 8, 23, 0.44);
+      border-radius: 30px;
+      padding: clamp(20px, 3.4vw, 30px);
+      box-shadow: 0 16px 70px rgba(0, 0, 0, 0.24);
+      display: grid;
+      align-content: center;
+    }
+
+    .hero-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      flex-wrap: wrap;
+      margin-bottom: 13px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--blue);
+      border: 1px solid rgba(56, 189, 248, 0.34);
+      background: rgba(56, 189, 248, 0.09);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 0.76rem;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+
+    .free-badge {
+      color: #022c22;
+      background: linear-gradient(135deg, #86efac, #22c55e);
+      border: 1px solid rgba(134, 239, 172, 0.5);
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 0.76rem;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--blue);
+      box-shadow: 0 0 22px var(--blue);
+    }
+
+    h1 {
+      font-size: clamp(2.25rem, 5.05vw, 4.85rem);
+      line-height: 0.95;
+      letter-spacing: -0.067em;
+      margin: 0 0 13px;
+      max-width: 900px;
+    }
+
+    .gradient {
+      background: linear-gradient(135deg, #ffffff 8%, #7dd3fc 52%, #60a5fa 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-copy {
+      font-size: clamp(1rem, 1.48vw, 1.17rem);
+      color: var(--muted);
+      max-width: 780px;
+      margin: 0 0 15px;
+    }
+
+    .hero-copy strong {
+      color: #ffffff;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .audit-line {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 10px;
+      align-items: start;
+      border: 1px solid rgba(34, 197, 94, 0.24);
+      background: rgba(34, 197, 94, 0.08);
+      border-radius: 17px;
+      padding: 12px;
+      margin-bottom: 13px;
+    }
+
+    .audit-line b {
+      width: 30px;
+      height: 30px;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      background: rgba(34, 197, 94, 0.18);
+      color: #86efac;
+    }
+
+    .audit-line span {
+      color: #d8ffe5;
+      font-size: 0.94rem;
+      font-weight: 760;
+    }
+
+    .instant-proof {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 9px;
+    }
+
+    .proof-card {
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.62);
+      border-radius: 17px;
+      padding: 12px;
+    }
+
+    .proof-card strong {
+      display: block;
+      color: #ffffff;
+      font-size: 0.93rem;
+      margin-bottom: 3px;
+    }
+
+    .proof-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.84rem;
+      line-height: 1.38;
+    }
+
+    .hero-panel {
+      border: 1px solid rgba(56, 189, 248, 0.27);
+      background:
+        linear-gradient(180deg, rgba(15, 23, 42, 0.86), rgba(2, 6, 23, 0.94)),
+        radial-gradient(circle at top right, rgba(56, 189, 248, 0.16), transparent 22rem);
+      border-radius: 30px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+      display: grid;
+      align-content: start;
+      gap: 12px;
+    }
+
+    .audit-card-top {
+      display: grid;
+      grid-template-columns: 76px 1fr;
+      gap: 14px;
+      align-items: center;
+      border: 1px solid rgba(56, 189, 248, 0.22);
+      background: rgba(2, 8, 23, 0.62);
+      border-radius: 22px;
+      padding: 13px;
+    }
+
+    .audit-logo {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(56, 189, 248, 0.50);
+      box-shadow: 0 0 34px rgba(56, 189, 248, 0.30);
+    }
+
+    .audit-card-top span {
+      display: block;
+      color: var(--blue);
+      font-size: 0.75rem;
+      font-weight: 1000;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .audit-card-top strong {
+      display: block;
+      font-size: 1.18rem;
+      line-height: 1.15;
+      color: #ffffff;
+    }
+
+    .email-box {
+      border: 1px solid rgba(34, 197, 94, 0.28);
+      background: rgba(34, 197, 94, 0.08);
+      border-radius: 18px;
+      padding: 13px;
+    }
+
+    .email-box strong {
+      display: block;
+      color: #d8ffe5;
+      margin-bottom: 5px;
+    }
+
+    .email-box a {
+      color: #8fffe0;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .buyer-question {
+      border: 1px solid var(--line);
+      background: rgba(2, 8, 23, 0.72);
+      border-radius: 18px;
+      padding: 14px;
+    }
+
+    .buyer-question .label {
+      color: var(--blue);
+      font-size: 0.73rem;
+      font-weight: 1000;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .buyer-question p {
+      margin: 0;
+      color: var(--soft);
+      font-size: 1rem;
+      font-weight: 840;
+      line-height: 1.42;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .checklist li {
+      display: grid;
+      grid-template-columns: 24px 1fr;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.91rem;
+      line-height: 1.35;
+    }
+
+    .checklist li::before {
+      content: "✓";
+      width: 24px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      border-radius: 9px;
+      color: var(--blue);
+      background: rgba(56, 189, 248, 0.12);
+      font-weight: 1000;
+    }
+
+    .below-hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 22px 24px;
+    }
+
+    .quick-strip {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr 0.92fr 0.92fr;
+      gap: 10px;
+    }
+
+    .quick-card {
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.72);
+      border-radius: 19px;
+      padding: 14px;
+    }
+
+    .quick-card.primary {
+      border-color: rgba(56, 189, 248, 0.34);
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    .quick-card .label {
+      display: block;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-size: 0.71rem;
+      font-weight: 1000;
+      margin-bottom: 5px;
+    }
+
+    .quick-card strong {
+      display: block;
+      color: #ffffff;
+      font-size: 0.97rem;
+      line-height: 1.22;
+      margin-bottom: 4px;
+    }
+
+    .quick-card span {
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.35;
+    }
+
+    section {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 52px 22px;
+    }
+
+    .section-head {
+      max-width: 850px;
+      margin-bottom: 26px;
+    }
+
+    .section-kicker {
+      color: var(--blue);
+      font-weight: 1000;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      margin-bottom: 9px;
+    }
+
+    h2 {
+      font-size: clamp(1.9rem, 4.3vw, 3.7rem);
+      line-height: 1;
+      letter-spacing: -0.055em;
+      margin: 0 0 13px;
+    }
+
+    h3 {
+      font-size: 1.19rem;
+      line-height: 1.18;
+      margin: 0 0 8px;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.06rem;
+      margin: 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 13px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 13px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.72);
+      border-radius: 22px;
+      padding: 21px;
+      box-shadow: 0 12px 50px rgba(0, 0, 0, 0.18);
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 15px;
+      background: rgba(56, 189, 248, 0.13);
+      border: 1px solid rgba(56, 189, 248, 0.27);
+      color: #7dd3fc;
+      font-weight: 1000;
+    }
+
+    .free-audit-section {
+      padding-top: 34px;
+    }
+
+    .audit-highlight {
+      display: grid;
+      grid-template-columns: minmax(0, 0.96fr) minmax(310px, 1.04fr);
+      gap: 16px;
+      border-radius: 30px;
+      padding: clamp(24px, 5vw, 44px);
+      border: 1px solid rgba(56, 189, 248, 0.32);
+      background:
+        radial-gradient(circle at top right, rgba(56, 189, 248, 0.20), transparent 25rem),
+        linear-gradient(135deg, rgba(15, 23, 42, 0.94), rgba(2, 6, 23, 0.94));
+      box-shadow: var(--shadow);
+      align-items: center;
+    }
+
+    .audit-form-card {
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      background: rgba(34, 197, 94, 0.08);
+      border-radius: 24px;
+      padding: 22px;
+    }
+
+    .audit-form-card p {
+      color: #d8ffe5;
+      margin: 0 0 14px;
+    }
+
+    .field-preview {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .field-preview span {
+      display: block;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      background: rgba(2, 8, 23, 0.56);
+      border-radius: 13px;
+      padding: 10px 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .comparison {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+      margin-top: 20px;
+    }
+
+    .bad, .good {
+      border-radius: 21px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      background: rgba(2, 6, 23, 0.46);
+    }
+
+    .bad h3 { color: #fca5a5; }
+    .good h3 { color: #93c5fd; }
+
+    ul {
+      padding-left: 20px;
+      margin: 12px 0 0;
+      color: var(--muted);
+    }
+
+    li { margin: 8px 0; }
+
+    .service-list {
+      display: grid;
+      gap: 11px;
+      margin-top: 17px;
+    }
+
+    .service-item {
+      display: grid;
+      grid-template-columns: 33px 1fr;
+      gap: 11px;
+      align-items: start;
+      padding: 14px;
+      border-radius: 17px;
+      border: 1px solid var(--line);
+      background: rgba(2, 6, 23, 0.38);
+    }
+
+    .tick {
+      width: 33px;
+      height: 33px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: rgba(56, 189, 248, 0.13);
+      color: var(--blue);
+      font-weight: 1000;
+    }
+
+    .service-item strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+
+    .service-item span { color: var(--muted); }
+
+    .process {
+      counter-reset: step;
+      display: grid;
+      gap: 12px;
+    }
+
+    .process-item {
+      counter-increment: step;
+      position: relative;
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.74);
+      border-radius: 21px;
+      padding: 19px 19px 19px 76px;
+    }
+
+    .process-item::before {
+      content: counter(step);
+      position: absolute;
+      left: 19px;
+      top: 19px;
+      width: 39px;
+      height: 39px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      color: var(--blue);
+      border: 1px solid rgba(56, 189, 248, 0.28);
+      background: rgba(56, 189, 248, 0.11);
+      font-weight: 1000;
+    }
+
+    .process-item p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .faq {
+      display: grid;
+      gap: 11px;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.74);
+      border-radius: 18px;
+      padding: 16px 18px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 880;
+      color: #ffffff;
+    }
+
+    details p {
+      color: var(--muted);
+      margin: 11px 0 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: rgba(2, 6, 23, 0.72);
+    }
+
+    .footer-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 25px 22px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 0.92rem;
+    }
+
+    .footer-inner a {
+      color: #8fffe0;
+      font-weight: 850;
+    }
+
+    @media (max-width: 1060px) {
+      .hero, .audit-highlight {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .top-alert {
+        font-size: 0.79rem;
+      }
+
+      .hero {
+        padding-top: 16px;
+      }
+
+      .instant-proof,
+      .quick-strip,
+      .grid-3,
+      .grid-2,
+      .comparison {
+        grid-template-columns: 1fr;
+      }
+
+      .brand-text {
+        font-size: 0.88rem;
+      }
+
+      .brand-text small {
+        display: none;
+      }
+
+      .nav-inner {
+        padding: 8px 15px;
+      }
+
+      .brand-logo {
+        width: 42px;
+        height: 42px;
+      }
+
+      .nav .btn {
+        padding: 10px 12px;
+        font-size: 0.88rem;
+        min-height: 42px;
+      }
+
+      .hero, .below-hero, section {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .audit-card-top {
+        grid-template-columns: 62px 1fr;
+      }
+
+      .audit-logo {
+        width: 62px;
+        height: 62px;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .brand-text {
+        display: none;
+      }
+
+      h1 {
+        letter-spacing: -0.055em;
+      }
+
+      .hero-main,
+      .hero-panel,
+      .audit-highlight {
+        border-radius: 23px;
+      }
+
+      .process-item {
+        padding-left: 19px;
+        padding-top: 72px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "#kronatrix-marketing",
+        "name": "KRONATRIX Marketing",
+        "description": "KRONATRIX Marketing is an AI marketing, AI SEO, business auditing and consulting agency helping businesses improve visibility, trust, content authority and human buying decisions in the age of AI search and AI recommendations.",
+        "email": "boostyouronlinepresencetoday@gmail.com",
+        "areaServed": "United Kingdom",
+        "image": "kronatrix-ai-marketing-agency-logo.png",
+        "logo": "kronatrix-ai-marketing-agency-logo.png",
+        "serviceType": [
+          "Free AI Marketing Audit",
+          "AI Marketing",
+          "AI SEO",
+          "Business Auditing",
+          "Marketing Consulting",
+          "Social Media Marketing",
+          "SEO Marketing",
+          "Business Growth Consulting",
+          "Conversion Improvement",
+          "Answer Engine Optimisation"
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "KRONATRIX"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "#website",
+        "name": "The Future of AI Marketing",
+        "publisher": {
+          "@id": "#kronatrix-marketing"
+        },
+        "inLanguage": "en-GB"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the KRONATRIX free audit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The KRONATRIX free audit reviews a business website link and looks for opportunities to improve AI marketing readiness, SEO clarity, human buying decision signals, trust, content and customer journey."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why will AI affect buying decisions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "As more people ask AI tools for recommendations, comparisons and buying advice, the information those AI systems understand about a business can influence whether that business is considered, trusted or ignored."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can KRONATRIX Marketing help?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "KRONATRIX Marketing audits a business, improves SEO foundations, builds clearer content, strengthens offer positioning and helps create useful, trustworthy information that can support human decision making and AI-assisted discovery."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="top-alert">
+    Free KRONATRIX AI Marketing Audit: email your website link and discover what may stop customers or AI from choosing you.
+  </div>
+
+  <header class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="KRONATRIX Marketing home">
+        <img class="brand-logo" src="kronatrix-ai-marketing-agency-logo.png" alt="KRONATRIX AI marketing agency logo" width="96" height="96" />
+        <span class="brand-text">KRONATRIX Marketing <small>AI SEO • Audits • Growth</small></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#free-audit">Free Audit</a>
+        <a href="#future">Future</a>
+        <a href="#decision">Buying Decisions</a>
+        <a href="#services">Services</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="btn free" href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you." aria-label="Email KRONATRIX for a free audit">Get Free Audit</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="hero-wrap">
+      <section class="hero" id="top">
+        <div class="hero-main">
+          <div class="hero-badge-row">
+            <div class="eyebrow"><span class="pulse"></span> The Future of AI Marketing</div>
+            <div class="free-badge">Free website audit</div>
+          </div>
+
+          <h1><span class="gradient">Before customers ask AI who to buy from,</span> make sure your business is easy to trust.</h1>
+
+          <p class="hero-copy">
+            KRONATRIX Marketing helps businesses prepare for the next buying era: people asking AI
+            <strong>what to buy, who to trust, who looks credible and which business deserves their money.</strong>
+          </p>
+
+          <div class="audit-line">
+            <b>✓</b>
+            <span>Email your website link. KRONATRIX will review your online presence and get back to you with improvement opportunities.</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn free" href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">Get My Free KRONATRIX Audit</a>
+            <a class="btn secondary" href="#decision">Why AI Will Influence Buying</a>
+          </div>
+
+          <div class="instant-proof" aria-label="Fast explanation of KRONATRIX">
+            <div class="proof-card">
+              <strong>What we audit</strong>
+              <span>Your website, SEO, offer, content, trust signals and customer journey.</span>
+            </div>
+            <div class="proof-card">
+              <strong>Why it matters</strong>
+              <span>AI recommendations may influence whether people choose you or a competitor.</span>
+            </div>
+            <div class="proof-card">
+              <strong>What you gain</strong>
+              <span>A clearer view of what to improve so your business becomes easier to understand.</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Free audit and AI buying decision example">
+          <div class="audit-card-top">
+            <img class="audit-logo" src="kronatrix-ai-marketing-agency-logo.png" alt="KRONATRIX logo for AI marketing, SEO and business audits" width="152" height="152" />
+            <div>
+              <span>Free audit CTA</span>
+              <strong>Send your website link. We review what could be costing you trust, clicks and enquiries.</strong>
+            </div>
+          </div>
+
+          <div class="email-box">
+            <strong>Email for your free audit:</strong>
+            <a href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">boostyouronlinepresencetoday@gmail.com</a>
+          </div>
+
+          <div class="buyer-question">
+            <div class="label">The new buyer question</div>
+            <p>“AI, which business should I trust for this service?”</p>
+          </div>
+
+          <ul class="checklist" aria-label="Free audit checks">
+            <li>Can AI and customers quickly understand what you sell?</li>
+            <li>Does your website explain why someone should trust you?</li>
+            <li>Are your SEO signals, content and proof strong enough?</li>
+            <li>Is your call to action clear enough to create enquiries?</li>
+          </ul>
+        </aside>
+      </section>
+
+      <div class="below-hero" aria-label="Key KRONATRIX message">
+        <div class="quick-strip">
+          <div class="quick-card primary">
+            <span class="label">Core idea</span>
+            <strong>The next customer journey may start with AI, not a normal Google search.</strong>
+            <span>KRONATRIX helps your business become easier for both humans and AI systems to understand.</span>
+          </div>
+
+          <div class="quick-card">
+            <span class="label">AI SEO</span>
+            <strong>Rank, explain, answer and prove.</strong>
+            <span>Strong SEO and clear content help AI-assisted discovery.</span>
+          </div>
+
+          <div class="quick-card">
+            <span class="label">Decision psychology</span>
+            <strong>People still need confidence.</strong>
+            <span>Trust, clarity, proof and low friction help buyers take action.</span>
+          </div>
+
+          <div class="quick-card">
+            <span class="label">Free audit</span>
+            <strong>Find the weak points first.</strong>
+            <span>Email your website link and KRONATRIX will get back to you.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="free-audit" class="free-audit-section">
+      <div class="audit-highlight">
+        <div>
+          <div class="section-kicker">Get a free KRONATRIX audit</div>
+          <h2>Your business may be losing trust before a customer even contacts you.</h2>
+          <p class="lead">
+            A free KRONATRIX audit looks at how your website, offer, SEO, content and trust signals appear to a modern buyer.
+            The goal is simple: find what may stop people from choosing you, especially when AI tools help them compare options.
+          </p>
+        </div>
+
+        <div class="audit-form-card">
+          <p><strong>To request your free audit, email us your website link.</strong> We will review it and get back to you with practical improvement opportunities.</p>
+          <div class="field-preview" aria-label="Email details to send">
+            <span>Business name:</span>
+            <span>Website link:</span>
+            <span>What you sell:</span>
+            <span>Main thing you want to improve:</span>
+          </div>
+          <a class="btn free" href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">Email My Website Link</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="future">
+      <div class="section-head">
+        <div class="section-kicker">AI search is changing marketing</div>
+        <h2>The future of marketing is not just ranking on Google. It is being understood by AI.</h2>
+        <p class="lead">
+          Traditional SEO helped people find your website. The next layer of AI marketing helps people and AI systems
+          understand why your business deserves attention, trust and consideration.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="icon">AI</div>
+          <h3>AI will become a buying adviser</h3>
+          <p>Customers will ask AI which business is best, which product is worth it, which service is trusted and which option fits their situation.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">SEO</div>
+          <h3>SEO will feed AI visibility</h3>
+          <p>Clear pages, useful answers, strong structure, reviews, evidence and search visibility can help AI systems understand your business better.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">BUY</div>
+          <h3>Human decisions will still matter</h3>
+          <p>People buy emotionally and logically. AI may guide the decision, but the human still needs trust, clarity, proof and confidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="decision">
+      <div class="section-head">
+        <div class="section-kicker">Human buying decisions</div>
+        <h2>When AI gives an opinion, it can become the reason someone buys or does not buy.</h2>
+        <p class="lead">
+          A customer may not read ten websites. They may ask AI to compare them. They may ask which company looks more credible,
+          which offer is clearer, which one has stronger proof and which one seems safer. That means your online presence has to work for two audiences:
+          the human buyer and the AI system helping them decide.
+        </p>
+      </div>
+
+      <div class="comparison">
+        <div class="bad">
+          <h3>If your business is hard to understand</h3>
+          <ul>
+            <li>AI may not know what you actually do.</li>
+            <li>Your offer may be unclear compared with competitors.</li>
+            <li>Your content may not answer buying questions.</li>
+            <li>Your proof, reviews and expertise may be weak or hidden.</li>
+            <li>Customers may choose someone easier to trust.</li>
+          </ul>
+        </div>
+
+        <div class="good">
+          <h3>If your business is built for AI-era search</h3>
+          <ul>
+            <li>Your services are explained clearly.</li>
+            <li>Your pages answer real customer questions.</li>
+            <li>Your proof and business value are easy to find.</li>
+            <li>Your content supports comparison and decision making.</li>
+            <li>You become easier to recommend, remember and choose.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="section-head">
+        <div class="section-kicker">Where KRONATRIX helps</div>
+        <h2>KRONATRIX audits, improves and positions your business for AI-assisted buying.</h2>
+        <p class="lead">
+          We focus on the practical signals that shape visibility, trust and action: your content, SEO, offer, customer journey,
+          social proof, brand message and decision-making experience.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>AI Marketing & AI SEO Strategy</h3>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>AI search visibility planning</strong>
+                <span>Improve how clearly your business is described, structured and positioned for search and AI-assisted discovery.</span>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>Answer-led content strategy</strong>
+                <span>Create content around the questions customers ask before they buy, compare, trust or contact you.</span>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>AI recommendation readiness</strong>
+                <span>Make your offer, proof, reviews, expertise and customer value easier for AI systems and humans to understand.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Business Auditing & Growth Consulting</h3>
+          <div class="service-list">
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>Website and conversion audit</strong>
+                <span>Review your website, landing pages, calls to action, trust signals and customer journey for improvement opportunities.</span>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>Social media and content audit</strong>
+                <span>Analyse whether your social content builds trust, explains value and creates the right buying signals.</span>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="tick">✓</div>
+              <div>
+                <strong>Offer clarity and positioning</strong>
+                <span>Help customers quickly understand who you help, what you sell, why it matters and why they should choose you.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="section-head">
+        <div class="section-kicker">KRONATRIX audit process</div>
+        <h2>A clear system for improving your business before AI decides who gets recommended.</h2>
+        <p class="lead">
+          KRONATRIX looks at what a real buyer and a modern AI system can understand from your public business presence.
+        </p>
+      </div>
+
+      <div class="process">
+        <article class="process-item">
+          <h3>Business discovery</h3>
+          <p>We identify what you sell, who you sell to, your strongest offer, your competitors and the buying questions your customers need answered.</p>
+        </article>
+
+        <article class="process-item">
+          <h3>SEO and AI visibility audit</h3>
+          <p>We review your search presence, website structure, page titles, headings, content clarity, keyword targeting and visibility for AI-era discovery.</p>
+        </article>
+
+        <article class="process-item">
+          <h3>Human decision-making review</h3>
+          <p>We study whether your website and content create trust, reduce doubt, answer objections and make the next step easy.</p>
+        </article>
+
+        <article class="process-item">
+          <h3>Content and proof upgrade plan</h3>
+          <p>We show what content, proof, reviews, FAQs, case studies, social posts and landing pages should be improved or created next.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div class="section-kicker">Why this is good for anyone selling anything</div>
+        <h2>Products, services, creators, local businesses and online brands all need to become easier to recommend.</h2>
+        <p class="lead">
+          If people ask AI for buying advice, your business must give AI and humans enough clear, useful and trustworthy information to work with.
+          That applies whether you sell products, services, appointments, subscriptions, events, courses, property, coaching, food, clothing or professional expertise.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <div class="icon">1</div>
+          <h3>Better clarity</h3>
+          <p>Customers understand what you do faster, and AI systems have clearer information to interpret.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">2</div>
+          <h3>Better trust</h3>
+          <p>Reviews, proof, useful content and strong positioning reduce doubt before the buyer contacts you.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">3</div>
+          <h3>Better conversion</h3>
+          <p>The easier it is to compare, trust and act, the more likely a potential customer is to choose you.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="section-head">
+        <div class="section-kicker">AI marketing FAQ</div>
+        <h2>Questions businesses are already asking about AI marketing and AI search.</h2>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>What is the KRONATRIX free audit?</summary>
+          <p>The free audit reviews your website link and looks for practical opportunities to improve AI marketing readiness, SEO clarity, customer trust, content, calls to action and buying decision signals.</p>
+        </details>
+
+        <details>
+          <summary>Can AI really influence whether someone buys?</summary>
+          <p>Yes. If a person asks AI to compare businesses, explain options or recommend a service, the AI answer can shape what the person notices, trusts and chooses next.</p>
+        </details>
+
+        <details>
+          <summary>Does KRONATRIX guarantee AI will recommend my business?</summary>
+          <p>No ethical marketing agency should guarantee that. KRONATRIX focuses on improving the signals that make your business clearer, more useful, more trustworthy and easier to understand across search, content, social proof and customer decision making.</p>
+        </details>
+
+        <details>
+          <summary>How do I request the free audit?</summary>
+          <p>Email your website link to <a href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">boostyouronlinepresencetoday@gmail.com</a>. Include your business name, what you sell and the main thing you want to improve.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="free-audit-section">
+      <div class="audit-highlight">
+        <div>
+          <div class="section-kicker">Final call to action</div>
+          <h2>Do not wait until AI is already choosing your competitors.</h2>
+          <p class="lead">
+            Get your business reviewed for AI marketing, SEO, content clarity, social proof, human buying psychology and recommendation readiness.
+          </p>
+        </div>
+        <div class="audit-form-card">
+          <p><strong>Email your website link today.</strong> KRONATRIX will get back to you with improvement opportunities.</p>
+          <a class="btn free" href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">Get My Free Audit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© 2026 KRONATRIX Marketing. AI marketing, SEO and business growth consulting.</div>
+      <div><a href="mailto:boostyouronlinepresencetoday@gmail.com?subject=Free%20KRONATRIX%20AI%20Marketing%20Audit&body=Hello%20KRONATRIX%2C%0A%0AI%20would%20like%20a%20free%20AI%20marketing%20audit.%0A%0ABusiness%20name%3A%0AWebsite%20link%3A%0AWhat%20I%20sell%3A%0AMain%20thing%20I%20want%20to%20improve%3A%0A%0AThank%20you.">boostyouronlinepresencetoday@gmail.com</a></div>
+    </div>
+  </footer>
+</body>
+</html>
