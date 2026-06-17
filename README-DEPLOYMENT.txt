@@ -1,9 +1,10 @@
-KRONATRIX AI Visibility Checker - Clean V2
+KRONATRIX AI Visibility Checker - V3 fixed image paths
 
-Domain:
-aivisibilitycheck.kronatrix.co.uk
+Upload every file in this folder to the root of the GitHub Pages repository.
 
-Files included:
+IMPORTANT: the image files are now included in the root as well as /assets so GitHub Pages can find them either way.
+
+Main files:
 - index.html
 - privacy.html
 - terms.html
@@ -13,22 +14,10 @@ Files included:
 - llms-full.txt
 - site.webmanifest
 - CNAME
-- assets/
+- kronatrix-k-logo.webp / kronatrix-k-logo.png
+- spencer-aurelius.webp / spencer-aurelius.png
+- favicon files
 
-Formspree endpoint:
-https://formspree.io/f/mnjygarq
-
-Contact email:
-kronatrix.ai@gmail.com
-
-Upload instructions:
-1. Upload every file and folder in this package to the GitHub repository root.
-2. Keep the assets folder exactly as included.
-3. In GitHub Pages, point the custom domain to aivisibilitycheck.kronatrix.co.uk.
-4. After launch, test:
-   - https://aivisibilitycheck.kronatrix.co.uk/
-   - https://aivisibilitycheck.kronatrix.co.uk/robots.txt
-   - https://aivisibilitycheck.kronatrix.co.uk/sitemap.xml
-   - https://aivisibilitycheck.kronatrix.co.uk/llms.txt
-
-Updated: 2026-06-18
+Formspree endpoint: https://formspree.io/f/mnjygarq
+Contact email: kronatrix.ai@gmail.com
+Target domain: aivisibilitycheck.kronatrix.co.uk
