@@ -1,0 +1,32 @@
+# KRONATRIX AI Visibility Checker - Full Content
+
+Source: https://aivisibilitycheck.kronatrix.co.uk/
+Updated: 2026-06-18
+
+## What KRONATRIX checks
+
+KRONATRIX checks whether a website is crawlable, clear, trusted, fast and structured for AI recommendations.
+
+The checker reviews:
+- Crawlability: robots.txt, sitemap, indexing signals, canonical URL and blocked content.
+- Entity clarity: business name, service, location, contact details, social links and consistent wording.
+- Prompt match: whether the page answers questions buyers ask AI tools.
+- Proof: examples, screenshots, testimonials, case studies and trust signals.
+- Schema: Organization, WebSite, Service, FAQ and breadcrumb schema matching visible content.
+- Speed and mobile: fast load, clear layout, readable text and easy calls to action.
+
+## Direct answer
+
+AI tools need pages they can crawl, classify, verify and quote. A good page answers one real prompt, proves the answer, loads fast and tells the visitor what to do next.
+
+## Form action
+
+The free checker form submits to Formspree at https://formspree.io/f/mnjygarq.
+
+## Contact
+
+KRONATRIX email: kronatrix.ai@gmail.com
+
+## Important limitation
+
+KRONATRIX does not guarantee ranking, indexing or recommendation by ChatGPT, Gemini, Perplexity, Google AI or any other platform. The checker identifies practical fixes that improve recommendation readiness.
