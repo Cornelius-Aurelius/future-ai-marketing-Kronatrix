@@ -1,23 +1,8 @@
-KRONATRIX AI Visibility Checker - V3 fixed image paths
+RETIRED KRONATRIX PROPERTY
 
-Upload every file in this folder to the root of the GitHub Pages repository.
+aiwebsiteaudit.kronatrix.co.uk has been consolidated into:
+https://aivisibilitycheck.kronatrix.co.uk/
 
-IMPORTANT: the image files are now included in the root as well as /assets so GitHub Pages can find them either way.
+The old custom domain remains attached to this GitHub Pages repository so visitors and crawlers reaching the former URLs are sent to the preferred KRONATRIX AI Visibility Check site.
 
-Main files:
-- index.html
-- privacy.html
-- terms.html
-- robots.txt
-- sitemap.xml
-- llms.txt
-- llms-full.txt
-- site.webmanifest
-- CNAME
-- kronatrix-k-logo.webp / kronatrix-k-logo.png
-- spencer-aurelius.webp / spencer-aurelius.png
-- favicon files
-
-Formspree endpoint: https://formspree.io/f/mnjygarq
-Contact email: kronatrix.ai@gmail.com
-Target domain: aivisibilitycheck.kronatrix.co.uk
+Do not submit aiwebsiteaudit.kronatrix.co.uk for indexing as a separate site.
